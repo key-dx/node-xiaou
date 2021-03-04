@@ -9,7 +9,7 @@ exports.dbConfig = {
 }
 
 // token过期时间 (分钟单位)
-exports.tokenTimeout = 60;
+exports.tokenTimeout = 1440;
 
 // api路由权限对照列表(字段是用户表中用户身份标识字符串)
 exports.apiAuthObj = [
